@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "disqusjs-proxy",
+    "routes": [
+        {
+            "src": "/(.*)",
+            "headers": {
+                "cache-control": "public, max-age=600"
+            },
+            "dest": "https://hans362-weather-monitoring-default-rtdb.firebaseio.com/$1"
+        }
+    ],
+    "github": {
+        "enabled": true,
+        "autoJobCancelation": true
+    }
+}
