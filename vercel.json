@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "disqusjs-proxy",
+    "name": "firebase-mirror",
     "routes": [
         {
             "src": "/(.*)",
